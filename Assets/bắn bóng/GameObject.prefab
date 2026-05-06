@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2995173297521865224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6209037185882204460}
+  - component: {fileID: 6592223851053627199}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6209037185882204460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995173297521865224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.6, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6592223851053627199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995173297521865224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513f7ddf1492e414f8b28e16dff7c0d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DynamicMapGenerator
+  framePrefab: {fileID: 2779281617747980822, guid: 3d81b635917e9314e84d536baca8dd14, type: 3}
+  randomCubePrefabs:
+  - {fileID: 2779281617747980822, guid: 074b50bc60ce7224c9370a002dc339de, type: 3}
+  - {fileID: 2779281617747980822, guid: 11885b56d4ce01541a97ec810c83eb42, type: 3}
+  - {fileID: 2779281617747980822, guid: 0c740d7e823c2fe458dc74a56be2f9cc, type: 3}
+  - {fileID: 2779281617747980822, guid: 180bdbf6b843f2145a155b9d756c2cf6, type: 3}
+  - {fileID: 2779281617747980822, guid: f50c065d0b2dddf48a256aa9d292f9bf, type: 3}
+  frameParent: {fileID: 6209037185882204460}
+  heightY: 40
+  depthZ: 20
+  startY: 25
+  currentAmmoPos: {x: 0, y: 2, z: 10}
+  nextAmmoPos: {x: 0, y: 2, z: 5}
