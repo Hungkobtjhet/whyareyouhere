@@ -70,10 +70,14 @@
     <Compile Include="Assets\EzySlice\Slicer.cs" />
     <Compile Include="Assets\chimbay\RandomScaleOnStart.cs" />
     <Compile Include="Assets\EzySlice\Framework\Triangulator.cs" />
+    <Compile Include="Assets\khunglong\LockInputController.cs" />
     <Compile Include="Assets\rắn\SnakeController.cs" />
+    <Compile Include="Assets\rắn\RandomEmissionColor.cs" />
+    <Compile Include="Assets\game chính\ObjectAController.cs" />
     <Compile Include="Assets\EzySlice\Framework\Triangle.cs" />
     <Compile Include="Assets\EzySlice\Framework\TextureRegion.cs" />
     <Compile Include="Assets\EzySlice\Framework\IntersectionResult.cs" />
+    <Compile Include="Assets\game chính\TeleportOnFall.cs" />
     <Compile Include="Assets\khunglong\ConstantMovement.cs" />
     <Compile Include="Assets\EzySlice\Framework\Plane.cs" />
     <Compile Include="Assets\game chính\CameraSixFixedPositions.cs" />

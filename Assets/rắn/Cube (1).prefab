@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1893554547074237627}
   - component: {fileID: 4478632872819988251}
   - component: {fileID: 6321657410460079611}
+  - component: {fileID: -7150988422220508174}
   m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Food
@@ -67,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fa1485bf94a4cec4abdb9eb905157d15, type: 2}
+  - {fileID: 2100000, guid: 84eb63fc924e86442828b2368cb4b3a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,3 +113,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7150988422220508174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785753273877397865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af36e6021c049934ea5047056165e8cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomEmissionColor

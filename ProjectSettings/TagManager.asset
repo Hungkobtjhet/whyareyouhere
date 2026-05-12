@@ -15,6 +15,7 @@ TagManager:
   - BounceWall
   - Food
   - Brick
+  - kiemtra
   layers:
   - Default
   - TransparentFX

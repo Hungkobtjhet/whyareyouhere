@@ -52,8 +52,8 @@ MonoBehaviour:
   - {fileID: 2779281617747980822, guid: 180bdbf6b843f2145a155b9d756c2cf6, type: 3}
   - {fileID: 2779281617747980822, guid: f50c065d0b2dddf48a256aa9d292f9bf, type: 3}
   frameParent: {fileID: 6209037185882204460}
-  heightY: 40
+  heightY: 20
   depthZ: 20
-  startY: 25
+  startY: 15
   currentAmmoPos: {x: 0, y: 2, z: 10}
   nextAmmoPos: {x: 0, y: 2, z: 5}
